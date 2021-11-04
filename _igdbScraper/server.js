@@ -1,5 +1,6 @@
 /*
 install npm request
+npm dotenv // to run env file
 */
 
 //https://www.youtube.com/watch?v=-0ASwlMcWik
