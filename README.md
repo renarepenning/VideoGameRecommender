@@ -1,4 +1,4 @@
-# VideoGameRecommender.github.io
+# Video Game Recommender
 
 ## Senior Year Computer Science Capstone Project - Tulane University 2021-2022
 #### By Rena Repenning, Kelly Romer, Matthew Rau, Emily O'Connell, and Vaughn Bangash
