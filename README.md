@@ -3,7 +3,8 @@
 ## Senior Year Computer Science Capstone Project - Tulane University 2021-2022
 #### By Rena Repenning, Kelly Romer, Matthew Rau, Emily O'Connell, and Vaughn Bangash
 
-https://renarepenning.github.io/VideoGameRecommender.github.io/
+https://renarepenning.github.io/VideoGameRecommender
+> Website created using gh-pages branch
 
 #### igdbScraper: 
 ###### Folder containing JS file to access IGDB data through our Twitch Account. Used Twitch documentation & YouTube
