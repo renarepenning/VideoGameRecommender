@@ -38,12 +38,12 @@ const getToken = (url,callback) => {
 };
 
 
-var AT = '';
-getToken(process.env.GET_TOKEN,(res) => {
-    //console.got(res.body);
-    AT = res.body.access_token;
-    return AT
-})
+// var AT = '';
+// getToken(process.env.GET_TOKEN,(res) => {
+//     //console.got(res.body);
+//     AT = res.body.access_token;
+//     return AT
+// })
 
 
 axios({
@@ -52,7 +52,15 @@ axios({
     headers: {
         'Accept': 'application/json',
         'Client-ID': process.env.CLIENT_ID,
-        'Authorization': 'Bearer ' + AT,
+        'Authorization': 'Bearer ' + getToken(process.env.GET_TOKEN,(res) => {
+            //console.got(res.body);
+            AT = res.body.access_token;
+            return AT
+        }),
+
+
+
+
     },
     data: "fields change_date,change_date_category,changed_company_id,checksum,country,created_at,description,developed,logo,name,parent,published,slug,start_date,start_date_category,updated_at,url,websites;"
   })
