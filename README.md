@@ -4,7 +4,7 @@
 #### By Rena Repenning, Kelly Romer, Matthew Rau, Emily O'Connell, and Vaughn Bangash
 
 https://renarepenning.github.io/VideoGameRecommender
-> Website created using gh-pages branch
+> Website created using gh-pages branch (create your own gh-pages branch to put as a page on your gitpages site)
 
 #### igdbScraper: 
 ###### Folder containing JS file to access IGDB data through our Twitch Account. Used Twitch documentation & YouTube
