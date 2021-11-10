@@ -25,7 +25,6 @@ const getToken = (url,callback) => {
             grant_type: 'client_credentials'
             }
     };
-
     request.post(options, (err, res, body) => {
         if(err){
             return console.log(err);
@@ -37,13 +36,12 @@ const getToken = (url,callback) => {
     });
 };
 
-
-// var AT = '';
-// getToken(process.env.GET_TOKEN,(res) => {
-//     //console.got(res.body);
-//     AT = res.body.access_token;
-//     return AT
-// })
+var AT = '';
+getToken(process.env.GET_TOKEN,(res) => {
+    //console.got(res.body);
+    AT = res.body.access_token;
+    return AT
+})
 
 
 axios({
@@ -52,14 +50,7 @@ axios({
     headers: {
         'Accept': 'application/json',
         'Client-ID': process.env.CLIENT_ID,
-        'Authorization': 'Bearer ' + getToken(process.env.GET_TOKEN,(res) => {
-            //console.got(res.body);
-            AT = res.body.access_token;
-            return AT
-        }),
-
-
-
+        'Authorization': 'Bearer ' + getToken
 
     },
     data: "fields change_date,change_date_category,changed_company_id,checksum,country,created_at,description,developed,logo,name,parent,published,slug,start_date,start_date_category,updated_at,url,websites;"
@@ -111,6 +102,6 @@ const getGames = (url, accessToken, callback) => {
     });
 
 };
-*/
 
+*/
 
