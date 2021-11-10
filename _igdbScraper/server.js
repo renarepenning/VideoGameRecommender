@@ -65,11 +65,11 @@ axios({
 
 
 
-setTimeout(() => {
-    getGames(process.env.GET_GAMES,AT,(response) =>{
+// setTimeout(() => {
+//     getGames(process.env.GET_GAMES,AT,(response) =>{
     
-    })
-}, 1000)
+//     })
+// }, 1000)
 
 
 
