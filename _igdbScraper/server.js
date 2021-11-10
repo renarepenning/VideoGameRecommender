@@ -9,6 +9,10 @@ npm dotenv // to run env file
 require('dotenv').config(); // env is environment variables so we dont have to show client secret
 const request = require('request');
 
+// must install axios with npm
+// axios.<method> will now provide autocomplete and parameter typings
+const axios = require('axios').default;
+
 // post to twitch to get oauth token
 const getToken = (url,callback) => {
 
@@ -41,11 +45,43 @@ getToken(process.env.GET_TOKEN,(res) => {
     return AT
 })
 
+
+axios({
+    url: "https://api.igdb.com/v4/companies",
+    method: 'POST',
+    headers: {
+        'Accept': 'application/json',
+        'Client-ID': process.env.CLIENT_ID,
+        'Authorization': 'Bearer ' + AT,
+    },
+    data: "fields change_date,change_date_category,changed_company_id,checksum,country,created_at,description,developed,logo,name,parent,published,slug,start_date,start_date_category,updated_at,url,websites;"
+  })
+    .then(response => {
+        console.log(response.data);
+    })
+    .catch(err => {
+        console.error(err);
+    });
+
+
+
+setTimeout(() => {
+    getGames(process.env.GET_GAMES,AT,(response) =>{
+    
+    })
+}, 1000)
+
+
+
+
+
+
+
 /* example
 setTimeout(() => {
     console.log(AT);
 },1000)
-*/
+
 
 // set function to get top games list
 const getGames = (url, accessToken, callback) => {
@@ -67,11 +103,6 @@ const getGames = (url, accessToken, callback) => {
     });
 
 };
-
-setTimeout(() => {
-    getGames(process.env.GET_GAMES,AT,(response) =>{
-
-    })
-}, 1000)
+*/
 
 
