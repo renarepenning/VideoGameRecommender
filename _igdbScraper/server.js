@@ -9,6 +9,10 @@ npm dotenv // to run env file
 require('dotenv').config(); // env is environment variables so we dont have to show client secret
 const request = require('request');
 
+// must install axios with npm
+//axios.<method> will now provide autocomplete and parameter typings
+//const axios = require('axios').default;
+
 // post to twitch to get oauth token
 const getToken = (url,callback) => {
 
@@ -21,18 +25,16 @@ const getToken = (url,callback) => {
             grant_type: 'client_credentials'
             }
     };
-
     request.post(options, (err, res, body) => {
         if(err){
             return console.log(err);
         }
         console.log("Status: ${res.statusCode");
-        console.log(body);
+        console.log(body.access_token);
 
         callback(res);
     });
 };
-
 
 var AT = '';
 getToken(process.env.GET_TOKEN,(res) => {
@@ -41,11 +43,7 @@ getToken(process.env.GET_TOKEN,(res) => {
     return AT
 })
 
-/* example
-setTimeout(() => {
-    console.log(AT);
-},1000)
-*/
+
 
 // set function to get top games list
 const getGames = (url, accessToken, callback) => {
@@ -65,11 +63,10 @@ const getGames = (url, accessToken, callback) => {
         console.log('Status: ${res.statusCode');
         console.log(JSON.parse(body));
     });
-
 };
 
-setTimeout(() => {
-    getGames(process.env.GET_GAMES,AT,(response) =>{
+setTimeout(() =>{
+    getGames(process.env.GET_GAMES,AT,(response) => {
 
     })
 }, 1000)
