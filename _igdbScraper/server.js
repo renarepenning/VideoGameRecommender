@@ -30,7 +30,7 @@ const getToken = (url,callback) => {
             return console.log(err);
         }
         console.log("Status: ${res.statusCode");
-        console.log(body);
+        console.log(body.access_token);
 
         callback(res);
     });
