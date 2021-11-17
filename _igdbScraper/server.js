@@ -44,23 +44,23 @@ getToken(process.env.GET_TOKEN,(res) => {
 })
 
 
-axios({
-    url: "https://api.igdb.com/v4/companies",
-    method: 'POST',
-    headers: {
-        'Accept': 'application/json',
-        'Client-ID': process.env.CLIENT_ID,
-        'Authorization': 'Bearer ' + getToken
+// axios({
+//     url: "https://api.igdb.com/v4/companies",
+//     method: 'POST',
+//     headers: {
+//         'Accept': 'application/json',
+//         'Client-ID': process.env.CLIENT_ID,
+//         'Authorization': 'Bearer ' + getToken
 
-    },
-    data: "fields change_date,change_date_category,changed_company_id,checksum,country,created_at,description,developed,logo,name,parent,published,slug,start_date,start_date_category,updated_at,url,websites;"
-  })
-    .then(response => {
-        console.log(response.data);
-    })
-    .catch(err => {
-        console.error(err);
-    });
+//     },
+//     data: "fields change_date,change_date_category,changed_company_id,checksum,country,created_at,description,developed,logo,name,parent,published,slug,start_date,start_date_category,updated_at,url,websites;"
+//   })
+//     .then(response => {
+//         console.log(response.data);
+//     })
+//     .catch(err => {
+//         console.error(err);
+//     });
 
 
 
