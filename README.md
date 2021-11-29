@@ -5,6 +5,7 @@
 
 https://renarepenning.github.io/VideoGameRecommender
 > Website created using gh-pages branch (create your own gh-pages branch to put as a page on your gitpages site)
+> TO UPDATE SITE: pull main pranch into gh-pages branch
 
 #### igdbScraper: 
 ###### Folder containing JS file to access IGDB data through our Twitch Account. Used Twitch documentation & YouTube
