@@ -1,0 +1,517 @@
+[
+  {
+    "id": 85031,
+    "age_ratings": [
+      37944
+    ],
+    "category": 0,
+    "cover": 61466,
+    "created_at": 1517392813,
+    "external_games": [
+      216805,
+      1969751,
+      2005770
+    ],
+    "first_release_date": 1404345600,
+    "genres": [
+      9
+    ],
+    "involved_companies": [
+      130531,
+      130532
+    ],
+    "name": "City Mysteries",
+    "platforms": [
+      37
+    ],
+    "release_dates": [
+      138333
+    ],
+    "screenshots": [
+      155025,
+      155026,
+      155027
+    ],
+    "similar_games": [
+      10603,
+      19222,
+      41349,
+      86974,
+      87507,
+      88511,
+      90788,
+      95776,
+      106992,
+      109184
+    ],
+    "slug": "city-mysteries",
+    "summary": "Search buildings, streets, landmarks as you seek and find hidden objects in New York, Paris, Moscow and London!",
+    "tags": [
+      268435465
+    ],
+    "updated_at": 1633472614,
+    "url": "https://www.igdb.com/games/city-mysteries",
+    "checksum": "857231cc-1f92-cc49-abc6-317c7a4ad635"
+  },
+  {
+    "id": 40104,
+    "category": 0,
+    "created_at": 1498435200,
+    "external_games": [
+      20127,
+      1988884
+    ],
+    "first_release_date": 536457600,
+    "genres": [
+      5
+    ],
+    "name": "Dogou Souken",
+    "platforms": [
+      52
+    ],
+    "release_dates": [
+      91007
+    ],
+    "similar_games": [
+      12364,
+      27270,
+      43367,
+      103281,
+      103292,
+      103298,
+      103301,
+      105049,
+      106805
+    ],
+    "slug": "dogou-souken",
+    "summary": "An overhead-view shoot\u0027em up game.",
+    "tags": [
+      268435461
+    ],
+    "updated_at": 1604620800,
+    "url": "https://www.igdb.com/games/dogou-souken",
+    "checksum": "5e7446ff-58d9-e744-f0d3-5e10241304c1"
+  },
+  {
+    "id": 164035,
+    "artworks": [
+      46305
+    ],
+    "category": 0,
+    "cover": 193621,
+    "created_at": 1628766152,
+    "external_games": [
+      2025100,
+      2081421
+    ],
+    "game_modes": [
+      1
+    ],
+    "genres": [
+      9,
+      13,
+      31
+    ],
+    "involved_companies": [
+      151324
+    ],
+    "keywords": [
+      72,
+      288,
+      1387,
+      3138
+    ],
+    "name": "Lonesome Village",
+    "platforms": [
+      6
+    ],
+    "player_perspectives": [
+      3
+    ],
+    "release_dates": [
+      314808
+    ],
+    "screenshots": [
+      585255,
+      585256,
+      585257,
+      585258,
+      585259,
+      585260,
+      585261
+    ],
+    "similar_games": [
+      27266,
+      27725,
+      28277,
+      37419,
+      51528,
+      79134,
+      81680,
+      87975,
+      103232,
+      106992
+    ],
+    "slug": "lonesome-village",
+    "summary": "Lonesome Village is a cozy, quiet town struggling to rebuild after a strange calamity wiped out their homes.\n\nTake the role of Wes the coyote and help bring this village back from the brink of destruction in a puzzle-filled life sim!",
+    "tags": [
+      268435465,
+      268435469,
+      268435487,
+      536870984,
+      536871200,
+      536872299,
+      536874050
+    ],
+    "updated_at": 1635338270,
+    "url": "https://www.igdb.com/games/lonesome-village",
+    "videos": [
+      55450
+    ],
+    "websites": [
+      212621
+    ],
+    "checksum": "3b0adf55-3911-8593-d16c-7fbed4b12725"
+  },
+  {
+    "id": 133087,
+    "artworks": [
+      58693
+    ],
+    "category": 0,
+    "cover": 195478,
+    "created_at": 1588592836,
+    "external_games": [
+      1861192,
+      1971599
+    ],
+    "first_release_date": 1635984000,
+    "genres": [
+      31,
+      32
+    ],
+    "name": "Matergari: Below Valesia",
+    "platforms": [
+      6
+    ],
+    "release_dates": [
+      324597
+    ],
+    "screenshots": [
+      457628,
+      457629,
+      457630,
+      457631,
+      457632
+    ],
+    "similar_games": [
+      28277,
+      37419,
+      55282,
+      75240,
+      75948,
+      87514,
+      87975,
+      96217,
+      106992,
+      111130
+    ],
+    "slug": "matergari-below-valesia",
+    "summary": "Matergari is a single player RPG set in a dangerous fantasy world. In this first chapter you will be able to explore the depths of the city of Valesia and help its inhabitants. Defeat your opponents and equip increasingly powerful weapons and armor to progress in this fantastic adventure.",
+    "tags": [
+      268435487,
+      268435488
+    ],
+    "updated_at": 1636661790,
+    "url": "https://www.igdb.com/games/matergari-below-valesia",
+    "websites": [
+      244370
+    ],
+    "checksum": "e36f05a5-c5b1-2914-90ec-72565ebec065"
+  },
+  {
+    "id": 68841,
+    "category": 0,
+    "cover": 97021,
+    "created_at": 1506517027,
+    "external_games": [
+      185421,
+      186839,
+      1905789
+    ],
+    "first_release_date": 1506988800,
+    "game_modes": [
+      2
+    ],
+    "genres": [
+      15,
+      16
+    ],
+    "keywords": [
+      970,
+      3171
+    ],
+    "name": "Captivus",
+    "platforms": [
+      6
+    ],
+    "release_dates": [
+      114619
+    ],
+    "screenshots": [
+      126622,
+      126623,
+      126624,
+      126625,
+      126626
+    ],
+    "similar_games": [
+      8773,
+      11666,
+      13200,
+      13660,
+      17130,
+      24620,
+      32510,
+      34823,
+      36258,
+      102057
+    ],
+    "slug": "captivus",
+    "status": 4,
+    "summary": "Join the movement! Build a deck, equip your ship, and take on others in intense 1v1 card battles!",
+    "tags": [
+      18,
+      268435471,
+      268435472,
+      536871882,
+      536874083
+    ],
+    "themes": [
+      18
+    ],
+    "updated_at": 1627285268,
+    "url": "https://www.igdb.com/games/captivus",
+    "websites": [
+      58090,
+      58091
+    ],
+    "checksum": "cf5139b0-acda-8613-b22a-62e0b0639780"
+  },
+  {
+    "id": 139538,
+    "category": 0,
+    "cover": 117024,
+    "created_at": 1602368467,
+    "external_games": [
+      1966278
+    ],
+    "first_release_date": 1525910400,
+    "game_engines": [
+      837
+    ],
+    "game_modes": [
+      1
+    ],
+    "genres": [
+      32
+    ],
+    "involved_companies": [
+      117090
+    ],
+    "keywords": [
+      26070
+    ],
+    "name": "sun machine",
+    "platforms": [
+      82
+    ],
+    "player_perspectives": [
+      3
+    ],
+    "release_dates": [
+      213594
+    ],
+    "screenshots": [
+      403247,
+      403248
+    ],
+    "similar_games": [
+      11666,
+      13200,
+      13660,
+      17130,
+      25311,
+      28070,
+      34823,
+      105269,
+      111187,
+      113895
+    ],
+    "slug": "sun-machine",
+    "summary": "a story of dark days, chronic fatigue, optimism, and nostalgia",
+    "tags": [
+      18,
+      268435488,
+      536896982
+    ],
+    "themes": [
+      18
+    ],
+    "updated_at": 1634725218,
+    "url": "https://www.igdb.com/games/sun-machine",
+    "websites": [
+      156114
+    ],
+    "checksum": "a44dc83f-16d0-0e6c-b4b9-bbc94288fbd2"
+  },
+  {
+    "id": 33284,
+    "category": 0,
+    "created_at": 1495670400,
+    "external_games": [
+      5560,
+      1947044
+    ],
+    "first_release_date": 1457740800,
+    "game_modes": [
+      1
+    ],
+    "genres": [
+      32
+    ],
+    "name": "One way to exit",
+    "platforms": [
+      6
+    ],
+    "release_dates": [
+      77755
+    ],
+    "screenshots": [
+      58492,
+      58493,
+      58494,
+      58495,
+      58496
+    ],
+    "similar_games": [
+      32902,
+      37419,
+      40524,
+      43367,
+      105233,
+      111130,
+      113895,
+      119121,
+      119493
+    ],
+    "slug": "one-way-to-exit",
+    "summary": "Move forward or backward in search of an exit, but remember, if you started moving you can not stop, and in any case, do not touch the walls, otherwise you have to start all over again.",
+    "tags": [
+      1,
+      268435488
+    ],
+    "themes": [
+      1
+    ],
+    "updated_at": 1604620800,
+    "url": "https://www.igdb.com/games/one-way-to-exit",
+    "checksum": "334d534d-8f5b-3cf8-90b4-240e6daa97fc"
+  },
+  {
+    "id": 89616,
+    "category": 0,
+    "cover": 192106,
+    "created_at": 1519986874,
+    "external_games": [
+      269608,
+      1949905
+    ],
+    "game_modes": [
+      1
+    ],
+    "genres": [
+      9,
+      33
+    ],
+    "involved_companies": [
+      154613
+    ],
+    "name": "Bubble Whirl Shooter",
+    "slug": "bubble-whirl-shooter",
+    "status": 8,
+    "summary": "Shoot bubbles and match colors to pop your way up to victory in this bubble shooting adventure, win magic keys to unlock more secret colorful bubble world, it’s time to enjoy the endless bubble shooting fun!",
+    "updated_at": 1635254871,
+    "url": "https://www.igdb.com/games/bubble-whirl-shooter",
+    "checksum": "a46d66e1-7b4e-c024-4ac8-f5253f805df2"
+  },
+  {
+    "id": 104748,
+    "category": 0,
+    "created_at": 1530489600,
+    "external_games": [
+      1155919,
+      1972586
+    ],
+    "name": "Space station - build your own ISS",
+    "slug": "space-station-build-your-own-iss",
+    "updated_at": 1604620800,
+    "url": "https://www.igdb.com/games/space-station-build-your-own-iss",
+    "checksum": "d49fe10f-a810-bb6a-3946-3c0b83f7fe44"
+  },
+  {
+    "id": 146815,
+    "category": 0,
+    "cover": 139338,
+    "created_at": 1620325446,
+    "external_games": [
+      2010807
+    ],
+    "first_release_date": 1230681600,
+    "game_modes": [
+      1
+    ],
+    "genres": [
+      9
+    ],
+    "involved_companies": [
+      128071,
+      128072
+    ],
+    "name": "Parking Lot Maze",
+    "platforms": [
+      6
+    ],
+    "player_perspectives": [
+      3
+    ],
+    "release_dates": [
+      242971
+    ],
+    "screenshots": [
+      441859,
+      441860,
+      441861
+    ],
+    "similar_games": [
+      10603,
+      19222,
+      41349,
+      86974,
+      87507,
+      88511,
+      89132,
+      90788,
+      95776,
+      109184
+    ],
+    "slug": "parking-lot-maze",
+    "summary": "Parking Lot Maze is a puzzle game where as a parking lot manager, you need to free cars from gridlock before the stress level hits the roof.",
+    "tags": [
+      268435465
+    ],
+    "updated_at": 1620399729,
+    "url": "https://www.igdb.com/games/parking-lot-maze",
+    "checksum": "e1ec46f7-1553-ab37-2cb7-c171595248ff"
+  }
+]
