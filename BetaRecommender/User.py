@@ -1,21 +1,22 @@
 class User:
-    def __init__(self, name, att1, att2, attN):
-        self.name = name
-        self.att1 = att1
-        self.att2 = att2
-        self.attN = attN
+    def __init__(self, name, genres, console, key_words):
+        self.name = name 
+        self.genre = genre
+        self.console = console
+        self.key_words = keywords
+
 
     def printUser(self):
-        print(self.name, " profile:\n", self.att1", "self.att2"," self.attN)
+        print(self.name, " profile:\n", self.console", "self.genre"," self.key_words)
 
 
 # get user input
-attributes = ["X", "Y", "Z"]
+attributes = ["List your console(s): ", "Name 1-3 genres: ", "Name 1-3 keywords: "]
 choices = []
 n = input("Name: ")
 
 for i in attributes:
-    choices += input("please rate the importance of ", i, " from 1-10: ")
+    choices += input(i)
 
 me = User(n, choices[0], choices[1], choices[2])
 
