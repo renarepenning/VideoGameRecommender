@@ -2,5 +2,12 @@
 # KNN classifier
 
 # Get user name and ratings
+from User import User
+new_user = User()
 
-# pull data from X amount of games
+# pull data from indie games 
+
+features = ["name", "game", "studio", "console", "keywords", "similar games"]
+
+
+
