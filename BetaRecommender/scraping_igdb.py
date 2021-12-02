@@ -26,9 +26,5 @@ def get_token():
     }
     return headers
 
-
-headers = get_token()
-query = requests.post('https://api.igdb.com/v4/games', headers=headers)
-
 # Functions to tag onto the end of the ML code to translate numerical id's to words
 # Can also be used to scrape data in the same manner as Postman
