@@ -1,19 +1,13 @@
 class User:
-    def __init__(self, name, genres, console, s key_words):
-        self.name = name
-        self.genre = genres
-        self.console = consoles
-        self.key_words = keywordss
-
-        # get user input
-        attributes = [
-            "List your console(s): ", "Name 1-3 genres: ", "Name 1-3 keywords: "]
-        choices = []
-        n = input("Name: ")
-        for i in attributes:
-            choices += input(i)
-        me = User(n, choices[0], choices[1], choices[2])
-        me.printUser()
+    def __init__(self):  # self, name, genres, consoles, key_words):
+        self.name = input("Name: ")
+        self.consoles = input(
+            "List your console(s) with commas and no spaces: ").split(",")
+        self.genres = input(
+            "List your genre(s) with commas and no spaces: ").split(",")
+        self.key_words = input(
+            "List your key_words(s) with commas and no spaces: ").split(",")
 
     def printUser(self):
-        print(self.name, " profile:\n", self.console", "self.genre"," self.key_words)
+        print(self.name, "'s profile:\n- ", self.consoles,
+              "\n- ", self.genres, "\n-", self.key_words)
