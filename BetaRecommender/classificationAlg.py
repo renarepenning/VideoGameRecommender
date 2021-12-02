@@ -5,9 +5,6 @@
 from User import User
 new_user = User()
 
-# pull data from indie games 
+# pull data from indie games
 
 features = ["name", "game", "studio", "console", "keywords", "similar games"]
-
-
-
