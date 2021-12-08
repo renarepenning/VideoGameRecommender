@@ -32,9 +32,9 @@ print(allGames)
 X_train_dict = allGames[features].to_dict(orient="records")
 X_new_dict = [{
     'name': new_user.name,
-    'category': new_user.categories,
-    'genre': new_user.genres,
-    'console': new_user.platforms,
+    # 'category': new_user.categories,
+    'genres': new_user.genres,
+    'consoles': new_user.consoles,
     'key_words': new_user.key_words,
 }]
 y_train = allGames["similar_games"]
