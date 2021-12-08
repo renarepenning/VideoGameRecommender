@@ -5,8 +5,10 @@
 # --> console as filer --> genres as filter, queried data - keywords mlo
 
 # query: {name:keywords}
+# kelly
 
 # data in: name, keywords
+
 
 # process: calculate dist as # common keywords, to keywords in games user chose
 
