@@ -2,18 +2,24 @@ import pandas as pd
 
 
 class User:
-    def __init__(self):  # self, name, genres, consoles, key_words):
+    def __init__(self, gn, g, t):  # self, game_names, genres, themes):
+        '''
         self.name = input("Name: ")
-        self.consoles = input(
-            "List your console(s) with commas and no spaces: ").split(",")
+        self.game_names = input(
+            "List some game names(s) with commas and no spaces: ").split(",")
         self.genres = input(
             "List your genre(s) with commas and no spaces: ").split(",")
-        self.key_words = input(
-            "List your key_words(s) with commas and no spaces: ").split(",")
+        self.themes = input(
+            "List some themes with commas and no spaces: ").split(",")
+        '''
+        self.name = "TEST"
+        self.game_names = gn
+        self.genres = g
+        self.themes = t
 
-        self.series = pd.Series(data=[self.name, self.consoles, self.genres, self.key_words],
-                                index=["user", "consoles", "genres", "key_words"])
+        self.series = pd.Series(data=[self.name, self.game_names, self.genres, self.themes],
+                                index=["user", "game_names", "genres", "themes"])
 
     def printUser(self):
-        print(self.name, "'s profile:\n- ", self.consoles,
-              "\n- ", self.genres, "\n-", self.key_words)
+        print(self.name, "'s profile:\n- ", self.game_names,
+              "\n- ", self.genres, "\n-", self.themes)
