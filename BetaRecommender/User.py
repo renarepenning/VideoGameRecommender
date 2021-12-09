@@ -12,7 +12,7 @@ class User:
         self.themes = input(
             "List some themes with commas and no spaces: ").split(",")
         '''
-        self.name = "TESTerr"
+        self.name = "TESTerrr"
         self.game_names = pd.Series(gn)
         self.genres = pd.Series(g)
         self.themes = pd.Series(t)
