@@ -12,10 +12,10 @@ class User:
         self.themes = input(
             "List some themes with commas and no spaces: ").split(",")
         '''
-        self.name = "TEST"
-        self.game_names = gn
-        self.genres = g
-        self.themes = t
+        self.name = "TESTer"
+        self.game_names = pd.Series(gn)
+        self.genres = pd.Series(g)
+        self.themes = pd.Series(t)
 
         self.series = pd.Series(data=[self.name, self.game_names, self.genres, self.themes],
                                 index=["user", "game_names", "genres", "themes"])
