@@ -1,0 +1,223 @@
+
+[
+    {
+        "id": 121,
+        "genres": [
+            {
+                "id": 31,
+                "name": "Adventure"
+            },
+            {
+                "id": 33,
+                "name": "Arcade"
+            }
+        ],
+        "name": "Minecraft",
+        "themes": [
+            {
+                "id": 17,
+                "name": "Fantasy"
+            },
+            {
+                "id": 21,
+                "name": "Survival"
+            },
+            {
+                "id": 33,
+                "name": "Sandbox"
+            },
+            {
+                "id": 38,
+                "name": "Open world"
+            },
+            {
+                "id": 41,
+                "name": "4X (explore, expand, exploit, and exterminate)"
+            }
+        ]
+    },
+    {
+        "id": 1879,
+        "genres": [
+            {
+                "id": 8,
+                "name": "Platform"
+            },
+            {
+                "id": 12,
+                "name": "Role-playing (RPG)"
+            },
+            {
+                "id": 13,
+                "name": "Simulator"
+            },
+            {
+                "id": 15,
+                "name": "Strategy"
+            },
+            {
+                "id": 31,
+                "name": "Adventure"
+            },
+            {
+                "id": 32,
+                "name": "Indie"
+            }
+        ],
+        "name": "Terraria",
+        "themes": [
+            {
+                "id": 1,
+                "name": "Action"
+            },
+            {
+                "id": 18,
+                "name": "Science fiction"
+            },
+            {
+                "id": 19,
+                "name": "Horror"
+            },
+            {
+                "id": 21,
+                "name": "Survival"
+            },
+            {
+                "id": 33,
+                "name": "Sandbox"
+            },
+            {
+                "id": 38,
+                "name": "Open world"
+            }
+        ]
+    },
+    {
+        "id": 8173,
+        "genres": [
+            {
+                "id": 5,
+                "name": "Shooter"
+            },
+            {
+                "id": 15,
+                "name": "Strategy"
+            }
+        ],
+        "name": "Overwatch",
+        "themes": [
+            {
+                "id": 1,
+                "name": "Action"
+            },
+            {
+                "id": 18,
+                "name": "Science fiction"
+            },
+            {
+                "id": 27,
+                "name": "Comedy"
+            }
+        ]
+    },
+    {
+        "id": 9066,
+        "genres": [
+            {
+                "id": 13,
+                "name": "Simulator"
+            },
+            {
+                "id": 15,
+                "name": "Strategy"
+            }
+        ],
+        "name": "Cities: Skylines",
+        "themes": [
+            {
+                "id": 28,
+                "name": "Business"
+            },
+            {
+                "id": 33,
+                "name": "Sandbox"
+            }
+        ]
+    },
+    {
+        "id": 9527,
+        "genres": [
+            {
+                "id": 8,
+                "name": "Platform"
+            },
+            {
+                "id": 10,
+                "name": "Racing"
+            },
+            {
+                "id": 14,
+                "name": "Sport"
+            },
+            {
+                "id": 32,
+                "name": "Indie"
+            },
+            {
+                "id": 33,
+                "name": "Arcade"
+            }
+        ],
+        "name": "SpeedRunners",
+        "themes": [
+            {
+                "id": 1,
+                "name": "Action"
+            },
+            {
+                "id": 40,
+                "name": "Party"
+            }
+        ]
+    },
+    {
+        "id": 135400,
+        "genres": [
+            {
+                "id": 13,
+                "name": "Simulator"
+            },
+            {
+                "id": 31,
+                "name": "Adventure"
+            },
+            {
+                "id": 33,
+                "name": "Arcade"
+            }
+        ],
+        "name": "Minecraft",
+        "themes": [
+            {
+                "id": 17,
+                "name": "Fantasy"
+            },
+            {
+                "id": 21,
+                "name": "Survival"
+            },
+            {
+                "id": 33,
+                "name": "Sandbox"
+            },
+            {
+                "id": 38,
+                "name": "Open world"
+            },
+            {
+                "id": 41,
+                "name": "4X (explore, expand, exploit, and exterminate)"
+            }
+        ]
+    }
+]
