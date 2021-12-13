@@ -1,7 +1,7 @@
 # Beta Alg plan
 * `BetaClassification.py`, `User.py` -- Rena Repenning
 * `TestRegression.py` -- Emily O'Connell
-* `IGDB_scraping.py` -- Kelly Romer
+* `IGDB_scraping.py`, `input_data_example.json` -- Kelly Romer
 
 
 
