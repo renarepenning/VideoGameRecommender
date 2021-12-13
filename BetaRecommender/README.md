@@ -1,11 +1,9 @@
 # Beta Alg plan
-KNN - Grouping games by similarity
+* BetaClassification.py -- Rena Repenning
+* TestRegression.py -- Emily O'Connell
 
-Output: 1 likes, 0 or 1 doesn't like 
-* should recommend
-* should not
-* later query in random order
-* 2,000 to start
+
+
 
 # DATA
 * ATTRIBUTES: name, genre, studio, console, keywords, similar games
