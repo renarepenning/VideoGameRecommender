@@ -1,8 +1,8 @@
 # Beta Alg plan
-* BetaClassification.py -- Rena Repenning
-* TestRegression.py -- Emily O'Connell
-* classificationAlg.py
-* IGDB_scraping.py -- Kelly Romer
+* `BetaClassification.py`, `User.py` -- Rena Repenning
+* `TestRegression.py` -- Emily O'Connell
+* `classificationAlg.py`
+* `IGDB_scraping.py` -- Kelly Romer
 
 
 
