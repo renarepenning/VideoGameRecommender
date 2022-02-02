@@ -1,0 +1,41 @@
+{
+  "build": "py38h4b4dc7a_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "blas 1.0 mkl",
+    "mkl >=2021.3.0,<2022.0a0",
+    "mkl-service >=2.3.0,<3.0a0",
+    "mkl_fft",
+    "mkl_random",
+    "numpy-base 1.21.2 py38he0bd621_0",
+    "python >=3.8,<3.9.0a0"
+  ],
+  "extracted_package_dir": "/Users/emilyoconnell/opt/anaconda3/pkgs/numpy-1.21.2-py38h4b4dc7a_0",
+  "features": "",
+  "files": [],
+  "fn": "numpy-1.21.2-py38h4b4dc7a_0.conda",
+  "legacy_bz2_md5": "4c030493e3380437716678877d9fb2b7",
+  "legacy_bz2_size": 22583,
+  "license": "BSD 3-Clause",
+  "link": {
+    "source": "/Users/emilyoconnell/opt/anaconda3/pkgs/numpy-1.21.2-py38h4b4dc7a_0",
+    "type": 1
+  },
+  "md5": "6aad9996d7c653d4bd5155a499c559cf",
+  "name": "numpy",
+  "package_tarball_full_path": "/Users/emilyoconnell/opt/anaconda3/pkgs/numpy-1.21.2-py38h4b4dc7a_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "ac9017344217cb4701b7c3511699f9a37df12324a6c378149e3d0a6464e54ba9",
+  "size": 23450,
+  "subdir": "osx-64",
+  "timestamp": 1634107135719,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/numpy-1.21.2-py38h4b4dc7a_0.conda",
+  "version": "1.21.2"
+}

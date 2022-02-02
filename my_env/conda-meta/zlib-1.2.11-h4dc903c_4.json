@@ -1,0 +1,92 @@
+{
+  "build": "h4dc903c_4",
+  "build_number": 4,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/Users/emilyoconnell/opt/anaconda3/pkgs/zlib-1.2.11-h4dc903c_4",
+  "features": "",
+  "files": [
+    "include/zconf.h",
+    "include/zlib.h",
+    "lib/libz.1.2.11.dylib",
+    "lib/libz.1.dylib",
+    "lib/libz.a",
+    "lib/libz.dylib",
+    "lib/pkgconfig/zlib.pc"
+  ],
+  "fn": "zlib-1.2.11-h4dc903c_4.conda",
+  "legacy_bz2_md5": "fbedd75705ceaeda6013e20d6531cf9e",
+  "legacy_bz2_size": 114226,
+  "license": "zlib",
+  "license_family": "Other",
+  "link": {
+    "source": "/Users/emilyoconnell/opt/anaconda3/pkgs/zlib-1.2.11-h4dc903c_4",
+    "type": 1
+  },
+  "md5": "901ce134535d685fb276c09c88767c1c",
+  "name": "zlib",
+  "package_tarball_full_path": "/Users/emilyoconnell/opt/anaconda3/pkgs/zlib-1.2.11-h4dc903c_4.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/zconf.h",
+        "path_type": "hardlink",
+        "sha256": "77304005ceb5f0d03ad4c37eb8386a10866e4ceeb204f7c3b6599834c7319541",
+        "sha256_in_prefix": "77304005ceb5f0d03ad4c37eb8386a10866e4ceeb204f7c3b6599834c7319541",
+        "size_in_bytes": 16262
+      },
+      {
+        "_path": "include/zlib.h",
+        "path_type": "hardlink",
+        "sha256": "4ddc82b4af931ab55f44d977bde81bfbc4151b5dcdccc03142831a301b5ec3c8",
+        "sha256_in_prefix": "4ddc82b4af931ab55f44d977bde81bfbc4151b5dcdccc03142831a301b5ec3c8",
+        "size_in_bytes": 96239
+      },
+      {
+        "_path": "lib/libz.1.2.11.dylib",
+        "path_type": "hardlink",
+        "sha256": "f9801d3f620ef03c23bdd23449954c1745f11e7d8e80f267c2a63ad930f19b1b",
+        "sha256_in_prefix": "f9801d3f620ef03c23bdd23449954c1745f11e7d8e80f267c2a63ad930f19b1b",
+        "size_in_bytes": 104980
+      },
+      {
+        "_path": "lib/libz.1.dylib",
+        "path_type": "softlink",
+        "sha256": "f9801d3f620ef03c23bdd23449954c1745f11e7d8e80f267c2a63ad930f19b1b",
+        "size_in_bytes": 104980
+      },
+      {
+        "_path": "lib/libz.a",
+        "path_type": "hardlink",
+        "sha256": "18dbeed7d90261d1cdf13bfe614e11d4da746a42a62759a081b87384625c1750",
+        "sha256_in_prefix": "18dbeed7d90261d1cdf13bfe614e11d4da746a42a62759a081b87384625c1750",
+        "size_in_bytes": 123800
+      },
+      {
+        "_path": "lib/libz.dylib",
+        "path_type": "softlink",
+        "sha256": "f9801d3f620ef03c23bdd23449954c1745f11e7d8e80f267c2a63ad930f19b1b",
+        "size_in_bytes": 104980
+      },
+      {
+        "_path": "lib/pkgconfig/zlib.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/9971e518-8f14-470a-4e1b-d62ad0da486b/volume/zlib_1639764848172/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "7086eeba99f95afc62174e1cad1a4addda61c581d9adcb4881796966010ea192",
+        "sha256_in_prefix": "119b437a020eb7e82660338eb766f6a5fce025beb9889d12c5a61452a44ccf45",
+        "size_in_bytes": 504
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "1143c2907e7cbf64edddeb07d95f037cd660d50cc15ccbaa280d5649824a1369",
+  "size": 98231,
+  "subdir": "osx-64",
+  "timestamp": 1639764900602,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/zlib-1.2.11-h4dc903c_4.conda",
+  "version": "1.2.11"
+}

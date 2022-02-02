@@ -1,0 +1,333 @@
+{
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "google-auth >=1.24.0,<2.0dev",
+    "google-cloud-core >=1.6.1,<2.0dev",
+    "google-resumable-media >=1.3.0,<2.0dev",
+    "python >=3.6",
+    "requests >=2.18.0,<3.0.0dev",
+    "yarl <1.6.0,>=1.0"
+  ],
+  "extracted_package_dir": "/Users/emilyoconnell/opt/anaconda3/pkgs/google-cloud-storage-1.41.0-pyhd3eb1b0_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/google/cloud/storage/__init__.py",
+    "lib/python3.8/site-packages/google/cloud/storage/_helpers.py",
+    "lib/python3.8/site-packages/google/cloud/storage/_http.py",
+    "lib/python3.8/site-packages/google/cloud/storage/_signing.py",
+    "lib/python3.8/site-packages/google/cloud/storage/acl.py",
+    "lib/python3.8/site-packages/google/cloud/storage/batch.py",
+    "lib/python3.8/site-packages/google/cloud/storage/blob.py",
+    "lib/python3.8/site-packages/google/cloud/storage/bucket.py",
+    "lib/python3.8/site-packages/google/cloud/storage/client.py",
+    "lib/python3.8/site-packages/google/cloud/storage/constants.py",
+    "lib/python3.8/site-packages/google/cloud/storage/fileio.py",
+    "lib/python3.8/site-packages/google/cloud/storage/hmac_key.py",
+    "lib/python3.8/site-packages/google/cloud/storage/iam.py",
+    "lib/python3.8/site-packages/google/cloud/storage/notification.py",
+    "lib/python3.8/site-packages/google/cloud/storage/retry.py",
+    "lib/python3.8/site-packages/google/cloud/storage/version.py",
+    "lib/python3.8/site-packages/google_cloud_storage-1.41.0-py3.9-nspkg.pth",
+    "lib/python3.8/site-packages/google_cloud_storage-1.41.0.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/google_cloud_storage-1.41.0.dist-info/LICENSE",
+    "lib/python3.8/site-packages/google_cloud_storage-1.41.0.dist-info/METADATA",
+    "lib/python3.8/site-packages/google_cloud_storage-1.41.0.dist-info/RECORD",
+    "lib/python3.8/site-packages/google_cloud_storage-1.41.0.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/google_cloud_storage-1.41.0.dist-info/WHEEL",
+    "lib/python3.8/site-packages/google_cloud_storage-1.41.0.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/google_cloud_storage-1.41.0.dist-info/namespace_packages.txt",
+    "lib/python3.8/site-packages/google_cloud_storage-1.41.0.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/google/cloud/storage/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/google/cloud/storage/__pycache__/_helpers.cpython-38.pyc",
+    "lib/python3.8/site-packages/google/cloud/storage/__pycache__/_http.cpython-38.pyc",
+    "lib/python3.8/site-packages/google/cloud/storage/__pycache__/_signing.cpython-38.pyc",
+    "lib/python3.8/site-packages/google/cloud/storage/__pycache__/acl.cpython-38.pyc",
+    "lib/python3.8/site-packages/google/cloud/storage/__pycache__/batch.cpython-38.pyc",
+    "lib/python3.8/site-packages/google/cloud/storage/__pycache__/blob.cpython-38.pyc",
+    "lib/python3.8/site-packages/google/cloud/storage/__pycache__/bucket.cpython-38.pyc",
+    "lib/python3.8/site-packages/google/cloud/storage/__pycache__/client.cpython-38.pyc",
+    "lib/python3.8/site-packages/google/cloud/storage/__pycache__/constants.cpython-38.pyc",
+    "lib/python3.8/site-packages/google/cloud/storage/__pycache__/fileio.cpython-38.pyc",
+    "lib/python3.8/site-packages/google/cloud/storage/__pycache__/hmac_key.cpython-38.pyc",
+    "lib/python3.8/site-packages/google/cloud/storage/__pycache__/iam.cpython-38.pyc",
+    "lib/python3.8/site-packages/google/cloud/storage/__pycache__/notification.cpython-38.pyc",
+    "lib/python3.8/site-packages/google/cloud/storage/__pycache__/retry.cpython-38.pyc",
+    "lib/python3.8/site-packages/google/cloud/storage/__pycache__/version.cpython-38.pyc"
+  ],
+  "fn": "google-cloud-storage-1.41.0-pyhd3eb1b0_0.conda",
+  "legacy_bz2_md5": "ccb35fd12e8daca49eb9a7e213cb940c",
+  "legacy_bz2_size": 74318,
+  "license": "Apache-2.0",
+  "license_family": "APACHE",
+  "link": {
+    "source": "/Users/emilyoconnell/opt/anaconda3/pkgs/google-cloud-storage-1.41.0-pyhd3eb1b0_0",
+    "type": 1
+  },
+  "md5": "29a4fbf32c6d06145abd165ebda5e74a",
+  "name": "google-cloud-storage",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/emilyoconnell/opt/anaconda3/pkgs/google-cloud-storage-1.41.0-pyhd3eb1b0_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/google/cloud/storage/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "85781b62c3e78457253ebb4fe93b36d7e6bd6b2863382f290869964ff622539b",
+        "sha256_in_prefix": "85781b62c3e78457253ebb4fe93b36d7e6bd6b2863382f290869964ff622539b",
+        "size_in_bytes": 1463
+      },
+      {
+        "_path": "site-packages/google/cloud/storage/_helpers.py",
+        "path_type": "hardlink",
+        "sha256": "3ab5d050311bf2f046fa13431419ea872136a4b5870e9450242a6d401bdf8293",
+        "sha256_in_prefix": "3ab5d050311bf2f046fa13431419ea872136a4b5870e9450242a6d401bdf8293",
+        "size_in_bytes": 20152
+      },
+      {
+        "_path": "site-packages/google/cloud/storage/_http.py",
+        "path_type": "hardlink",
+        "sha256": "3d786bb3a2ad527149af7aedfac26db56471cc353e2218d83821216dcaf62aff",
+        "sha256_in_prefix": "3d786bb3a2ad527149af7aedfac26db56471cc353e2218d83821216dcaf62aff",
+        "size_in_bytes": 3214
+      },
+      {
+        "_path": "site-packages/google/cloud/storage/_signing.py",
+        "path_type": "hardlink",
+        "sha256": "debd112b9d351eecb428aab58235de5187fe3efdbe6d130df290f3cf50f15f9d",
+        "sha256_in_prefix": "debd112b9d351eecb428aab58235de5187fe3efdbe6d130df290f3cf50f15f9d",
+        "size_in_bytes": 25754
+      },
+      {
+        "_path": "site-packages/google/cloud/storage/acl.py",
+        "path_type": "hardlink",
+        "sha256": "b02c69b9d82808b11d6c09a7b8803bd02fa3ea7d827dcf9335045cb40ea7ab99",
+        "sha256_in_prefix": "b02c69b9d82808b11d6c09a7b8803bd02fa3ea7d827dcf9335045cb40ea7ab99",
+        "size_in_bytes": 22227
+      },
+      {
+        "_path": "site-packages/google/cloud/storage/batch.py",
+        "path_type": "hardlink",
+        "sha256": "fbee45d9acc666b176a92057642d6a11cedff606e62c4c4e238b736ddbd58ff6",
+        "sha256_in_prefix": "fbee45d9acc666b176a92057642d6a11cedff606e62c4c4e238b736ddbd58ff6",
+        "size_in_bytes": 11894
+      },
+      {
+        "_path": "site-packages/google/cloud/storage/blob.py",
+        "path_type": "hardlink",
+        "sha256": "87cec4b00166523c67e8e60ee0a9b673af9c5c47f764b224f2a6e8899dbfedc5",
+        "sha256_in_prefix": "87cec4b00166523c67e8e60ee0a9b673af9c5c47f764b224f2a6e8899dbfedc5",
+        "size_in_bytes": 171313
+      },
+      {
+        "_path": "site-packages/google/cloud/storage/bucket.py",
+        "path_type": "hardlink",
+        "sha256": "e9f5dc5772fe917c4b76e09462610249bb40b28cd74587b35b1080cbca94ef7f",
+        "sha256_in_prefix": "e9f5dc5772fe917c4b76e09462610249bb40b28cd74587b35b1080cbca94ef7f",
+        "size_in_bytes": 124781
+      },
+      {
+        "_path": "site-packages/google/cloud/storage/client.py",
+        "path_type": "hardlink",
+        "sha256": "28ae54c2ded590195d201d5f797fe423781bea52f2fc38c4599de3e8c96612e3",
+        "sha256_in_prefix": "28ae54c2ded590195d201d5f797fe423781bea52f2fc38c4599de3e8c96612e3",
+        "size_in_bytes": 66325
+      },
+      {
+        "_path": "site-packages/google/cloud/storage/constants.py",
+        "path_type": "hardlink",
+        "sha256": "fa916b934df11c181b6a22e7c9ca6dc39da8cd97e4ca309ded57fc3abef709d5",
+        "sha256_in_prefix": "fa916b934df11c181b6a22e7c9ca6dc39da8cd97e4ca309ded57fc3abef709d5",
+        "size_in_bytes": 3219
+      },
+      {
+        "_path": "site-packages/google/cloud/storage/fileio.py",
+        "path_type": "hardlink",
+        "sha256": "53a56079ed8010f2b9f83683b9bbfbe627e37f1a143503c9f2277cd57ed1f466",
+        "sha256_in_prefix": "53a56079ed8010f2b9f83683b9bbfbe627e37f1a143503c9f2277cd57ed1f466",
+        "size_in_bytes": 19150
+      },
+      {
+        "_path": "site-packages/google/cloud/storage/hmac_key.py",
+        "path_type": "hardlink",
+        "sha256": "a113c00a1ade5f57946def8c845cf141394736b88d06de41047afb6f7f094919",
+        "sha256_in_prefix": "a113c00a1ade5f57946def8c845cf141394736b88d06de41047afb6f7f094919",
+        "size_in_bytes": 9770
+      },
+      {
+        "_path": "site-packages/google/cloud/storage/iam.py",
+        "path_type": "hardlink",
+        "sha256": "cce1851d41b899841370bac73069a24d01d97033a370d8753605fc5772fdcb6c",
+        "sha256_in_prefix": "cce1851d41b899841370bac73069a24d01d97033a370d8753605fc5772fdcb6c",
+        "size_in_bytes": 2802
+      },
+      {
+        "_path": "site-packages/google/cloud/storage/notification.py",
+        "path_type": "hardlink",
+        "sha256": "d0ea9033588987db7dd1bd0658583265dc3c969c96b681bd329064bb6c1065ef",
+        "sha256_in_prefix": "d0ea9033588987db7dd1bd0658583265dc3c969c96b681bd329064bb6c1065ef",
+        "size_in_bytes": 15149
+      },
+      {
+        "_path": "site-packages/google/cloud/storage/retry.py",
+        "path_type": "hardlink",
+        "sha256": "344d4db52489c505513e6a7fccfa4fe52553bcc917009c953df696b896a6b79f",
+        "sha256_in_prefix": "344d4db52489c505513e6a7fccfa4fe52553bcc917009c953df696b896a6b79f",
+        "size_in_bytes": 6124
+      },
+      {
+        "_path": "site-packages/google/cloud/storage/version.py",
+        "path_type": "hardlink",
+        "sha256": "c7c9195d5dd1b5c386428b66a75fc78e34d7ded1f6ce02221e4c59b6e3430620",
+        "sha256_in_prefix": "c7c9195d5dd1b5c386428b66a75fc78e34d7ded1f6ce02221e4c59b6e3430620",
+        "size_in_bytes": 598
+      },
+      {
+        "_path": "site-packages/google_cloud_storage-1.41.0-py3.9-nspkg.pth",
+        "path_type": "hardlink",
+        "sha256": "6f40f9759937454ccae78b59f62643bcb9bbbbc96d73913362b1829a1b2ea0dc",
+        "sha256_in_prefix": "6f40f9759937454ccae78b59f62643bcb9bbbbc96d73913362b1829a1b2ea0dc",
+        "size_in_bytes": 1698
+      },
+      {
+        "_path": "site-packages/google_cloud_storage-1.41.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/google_cloud_storage-1.41.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "sha256_in_prefix": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "size_in_bytes": 11358
+      },
+      {
+        "_path": "site-packages/google_cloud_storage-1.41.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "1e275552c4709d781b5b6627aa32c07c6dd1a510e82870275589f7bd18140446",
+        "sha256_in_prefix": "1e275552c4709d781b5b6627aa32c07c6dd1a510e82870275589f7bd18140446",
+        "size_in_bytes": 4785
+      },
+      {
+        "_path": "site-packages/google_cloud_storage-1.41.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "859c572bcb0c29b7c672c0babf7bd105a97bdf6078defbfb8698dd56ed66b0df",
+        "sha256_in_prefix": "859c572bcb0c29b7c672c0babf7bd105a97bdf6078defbfb8698dd56ed66b0df",
+        "size_in_bytes": 3352
+      },
+      {
+        "_path": "site-packages/google_cloud_storage-1.41.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/google_cloud_storage-1.41.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "67e9f2629c2b712ab17ddbb1e4c6e7fc3439db988fec9d831b72601af398c934",
+        "sha256_in_prefix": "67e9f2629c2b712ab17ddbb1e4c6e7fc3439db988fec9d831b72601af398c934",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/google_cloud_storage-1.41.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "6d43906c64dcdcfc4b27817c382bfbd68fbbb448316d053113f6ce4429d1270d",
+        "sha256_in_prefix": "6d43906c64dcdcfc4b27817c382bfbd68fbbb448316d053113f6ce4429d1270d",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "site-packages/google_cloud_storage-1.41.0.dist-info/namespace_packages.txt",
+        "path_type": "hardlink",
+        "sha256": "bfc21a62a444d9ad289c018922965e164907f37c1749665147d78ec9f330a137",
+        "sha256_in_prefix": "bfc21a62a444d9ad289c018922965e164907f37c1749665147d78ec9f330a137",
+        "size_in_bytes": 20
+      },
+      {
+        "_path": "site-packages/google_cloud_storage-1.41.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "ff542f48922114019fc5befd0fa0e107b494c365fa4f8af09f3fcb2eb6dc0f77",
+        "sha256_in_prefix": "ff542f48922114019fc5befd0fa0e107b494c365fa4f8af09f3fcb2eb6dc0f77",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "lib/python3.8/site-packages/google/cloud/storage/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/google/cloud/storage/__pycache__/_helpers.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/google/cloud/storage/__pycache__/_http.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/google/cloud/storage/__pycache__/_signing.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/google/cloud/storage/__pycache__/acl.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/google/cloud/storage/__pycache__/batch.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/google/cloud/storage/__pycache__/blob.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/google/cloud/storage/__pycache__/bucket.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/google/cloud/storage/__pycache__/client.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/google/cloud/storage/__pycache__/constants.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/google/cloud/storage/__pycache__/fileio.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/google/cloud/storage/__pycache__/hmac_key.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/google/cloud/storage/__pycache__/iam.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/google/cloud/storage/__pycache__/notification.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/google/cloud/storage/__pycache__/retry.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/google/cloud/storage/__pycache__/version.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "6a4458b81bf88a16e20c332831c06ca6e6046021e27cb6986cf5a4e40a5b15b0",
+  "size": 73682,
+  "subdir": "noarch",
+  "timestamp": 1626308281450,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/google-cloud-storage-1.41.0-pyhd3eb1b0_0.conda",
+  "version": "1.41.0"
+}
