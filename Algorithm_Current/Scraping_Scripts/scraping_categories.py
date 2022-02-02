@@ -23,7 +23,7 @@ access_token = get_token()
 wrapper = IGDBWrapper('8kx354hpu7lzs6ga7c1ktafopq30qq', access_token)
 
 # JSON API request
-params = ['genres', 'themes', 'game_modes', 'platforms', 'keywords']#tags involved_companies
+params = ['genres', 'themes', 'game_modes', 'platforms', 'keywords']
 for item in params:
     byte_array = wrapper.api_request(item, 'fields id, name; limit 500;')
     # append byte_array to same json every time we loop and save it to a file
