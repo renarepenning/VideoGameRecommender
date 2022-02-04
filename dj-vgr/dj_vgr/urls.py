@@ -15,10 +15,17 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from . import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    # add urlconf from user
-    path('user/', include('user.urls')) # sends urls with user prefix to user file
+    path('admin/', admin.site.urls), # add urlconf from user
+    path('', views.home, name="home"), # path for home page
+
+    path('user/', include('user.urls')), # sends urls with user prefix to user file
+
     
+
 ]
+
+
+'''path("", views.home, name="home")'''
