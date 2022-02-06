@@ -49,11 +49,10 @@ create view.py and add a fxn ….
 render fxn remders template and returns html markup to client
 won’t use templates bc we don’t just want to render html content
 
-# debugging django — open run and debug panel, create launch profile, django… launch.json
-### add port  9000
-### can add break point, start app for debugging, etc etc
-### see variables, watch, things to run fxns etc easily
-
+### debugging django by installing degub toolbar  — open run and debug panel, create launch profile, django… launch.json
+- add port  9000
+- can add break point, start app for debugging, etc etc
+- see variables, watch, things to run fxns etc easily
 - `python3 -m pip install django-debug-toolbar`
 - `pipenv install django-debug-toolbar`
 - add to settings, installed apps ‘debug_toolbar’
@@ -61,7 +60,7 @@ won’t use templates bc we don’t just want to render html content
 - add middleware to settings mod
 - config internal ips
 
-###  adding sqllite
+# using db -->  sqllite
 - need `migrate python3 manage.py migrate`
 - add 'myapp' to settings.py
 - create class in models.py in user
@@ -72,7 +71,7 @@ won’t use templates bc we don’t just want to render html content
 - `python3 manage.py makemigrations <app-name>`
 - all db changes are now in 0001 file (each time you add a model you get 0002, 0003, etc
 
-- `python3 manage.py sqlmigrate user 001`
+- `python3 manage.py sqlmigrate user 0001`
 ##### apply changes
 - `python3 manage.py migrate user`
 #### now db and description are up to date together
