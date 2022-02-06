@@ -12,6 +12,8 @@ Tutorials used:
 <br>
 <br>
 <br> 
+
+
 # starting fresh -- Rena's tutorial notes
 `pip3 install pipenv`
 `mkdir storefront`
@@ -22,9 +24,9 @@ Tutorials used:
 
 `django-admin startproject storefront .` #  —> django-admin gives us commands
 
-### go in manage.py for settings …. is like a dj admin
+#### go in manage.py for settings …. is like a dj admin
 
-### run server: 
+#### run server: 
 python3 manage.py runserver # opt supply port number
 
 to get integrated terminal —> but i think not anymore just slect it
@@ -32,14 +34,16 @@ $pipenv --venv # then get path + /bin/python
 
 #settings > installed apps > delete sessions app — not rly needed 
 
-### open new terminal window
+#### open new terminal window
 `python3 manage.py startapp <name>` ( new app has folder with specific structure  )
 - apps are like config
 - model classes pull out data, tests, views (request handler)
 
-### create new app—> add `<name>` to settings
+#### create new app—> add `<name>` to settings
 create view
-## views are request handlers
+
+# File Structure
+### views are request handlers
 create view.py and add a fxn ….
 
 -  map url to view …. w url.py
