@@ -102,3 +102,7 @@ won’t use templates bc we don’t just want to render html content
 # heroku
 installing heroku brew install heroku/brew/heroku
 
+## adding web styling
+- https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Home_page
+- added templates, including base genric that should work for everything
+- can't get the css to link? think there needs to be something else in settings??
