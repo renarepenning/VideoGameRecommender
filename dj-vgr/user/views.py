@@ -6,7 +6,14 @@ from .models import myUser, Game
 
 # create view ==> add to urls.py here, then in parent class.
 def user_home(request):
-    return HttpResponse('Welcome to our capstone website \n user page')
+    #return HttpResponse('Welcome to our capstone website \n user page')
+    context = {
+        'num_users': myUser.objects.all().count(),
+        'num_games': Game.objects.all().count(),
+    }
+
+
+    return render(request, 'index.html', context=context)
 
 def get_name(request, name):
     person = myUser.objects.get(pk=name)

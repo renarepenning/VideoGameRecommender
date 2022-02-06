@@ -30,9 +30,9 @@ Tutorials used:
 python3 manage.py runserver # opt supply port number
 
 to get integrated terminal —> but i think not anymore just slect it
-$pipenv --venv # then get path + /bin/python
+`pipenv --venv` # then get path + /bin/python
 
-#settings > installed apps > delete sessions app — not rly needed 
+- settings > installed apps > delete sessions app — not rly needed 
 
 #### open new terminal window
 `python3 manage.py startapp <name>` ( new app has folder with specific structure  )
@@ -75,6 +75,8 @@ won’t use templates bc we don’t just want to render html content
 - `python3 manage.py makemigrations <app-name>`
 - all db changes are now in 0001 file (each time you add a model you get 0002, 0003, etc
 
+
+
 - `python3 manage.py sqlmigrate user 0001`
 ##### apply changes
 - `python3 manage.py migrate user`
@@ -87,7 +89,7 @@ won’t use templates bc we don’t just want to render html content
 - `python3 manage.py migrate`
 - `python3 manage.py makemigrations`
 
-### adding table
+### adding table -- creating a model
 - make one in  model
 - add to admin
 - python3 manage.py makemigrations user
