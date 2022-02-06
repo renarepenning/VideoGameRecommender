@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 
 from pathlib import Path
+'''from os import path'''
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -69,6 +70,13 @@ TEMPLATES = [
     },
 ]
 
+'''# https://stackoverflow.com/questions/1926049/django-templatedoesnotexist
+SETTINGS_PATH = os.path.normpath(os.path.dirname(__file__))
+# Find templates in the same folder as settings.py.
+TEMPLATE_DIRS = (
+    os.path.join(SETTINGS_PATH, 'templates'),
+)
+'''
 WSGI_APPLICATION = 'dj_vgr.wsgi.application'
 
 

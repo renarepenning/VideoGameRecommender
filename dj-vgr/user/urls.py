@@ -3,7 +3,7 @@ from . import views
 
 #url conf module
 urlpatterns = [
-    path('', views.user_home), # urls from settins with user/ are passed here
+   # path('', views.user_home), # urls from settins with user/ are passed here
     # this will query user id
 
     ## NOT WORKING W NAME RN? THIS  IT NEEDS TO BE ID ATM. TRY WITH 1 OR 2'''
