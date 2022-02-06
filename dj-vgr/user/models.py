@@ -7,7 +7,7 @@ class myUser(models.Model):
 
 
 # THIS MAY HAVE TO BE A SEPARATE APP. UNSURE THE ISSUE ATM
-'''class Game(models.Model):
+class Game(models.Model):
     gname = models.CharField(max_length=40)
     genre = models.CharField(max_length=40)
-    last_update = models.DateField('Date of last update')'''
+    last_update = models.DateField('Date of last update')
