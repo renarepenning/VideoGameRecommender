@@ -23,7 +23,4 @@ urlpatterns = [
     path('', views.home, name="front-page"), # path for home page
 
     path('user/', include('user.urls')), # sends urls with user prefix to user file
-
-    
-
 ]

@@ -1,7 +1,8 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from django.contrib import messages
 
-from .models import myUser, Game
+from .models import myUser, Game, Mood
 # request handler!
 
 # create view ==> add to urls.py here, then in parent class.
@@ -28,3 +29,15 @@ def game_by_name(request, gname):
 # to use templates --> don't use these much
 '''def say_hello_template(request):
     return render(request, 'hello.html', {'key': 'value to pass'})'''
+
+# https://www.youtube.com/watch?v=dW1o-o1Z5G0
+def saveitem(request):
+    if request.method == "POST":
+        if request.POST.get('mymood'):
+            savevalue=Mood()
+            savevalue.mymood=request.POST.get('mymood')
+            savevalue.save()
+            messages.success(request,"the selected mood",savevalue.mymood," was saved in db")
+            return render(request, 'index.html')
+    else:
+        return render(request, 'index.html')

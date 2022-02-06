@@ -10,5 +10,24 @@
     <li><strong>Games:</strong> {{ num_games }}</li>
     
   </ul>
+  <h2>user button </h2>
+  <hr/>
+  <form method="POST">
+    {% csrf_token %}
+    <select name="mymood">
+    <option selected disabled="true">select mood</option>
+        <option>:)</option>
+        <option>:p</option>
+        <option>:(</option>
+    </select>
+    <input type="submit" value="insert"/> 
+    <hr/>
+    {% if messages %}
+    {% for x in messages %}
+    <h3>{{x}}</h3>
+    {% endfor %}
+    {% end if %}
+  </form>
+
 
 {% endblock %}

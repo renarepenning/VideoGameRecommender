@@ -11,3 +11,6 @@ class Game(models.Model):
     gname = models.CharField(max_length=40)
     genre = models.CharField(max_length=40)
     last_update = models.DateField('Date of last update')
+
+class Mood(models.Model):
+    mymood = models.CharField(max_length=40)
