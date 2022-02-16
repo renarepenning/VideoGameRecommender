@@ -151,4 +151,4 @@ def preprocess(df:pd.DataFrame, columns=master_cols):
 #save_file()
 #print(get_input('Out of the Park Baseball 12'))
 
-transform('Out of the Park Baseball 12')
+print(transform(master_cols, get_input('Out of the Park Baseball 12')))
