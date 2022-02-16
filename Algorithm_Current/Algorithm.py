@@ -81,16 +81,10 @@ def save_file(game, columns:list, df:pd.DataFrame=df):
     except:
         print(game, 'fucking sucks')
    
-    if f'{game}.csv' not in os.listdir('Saver'):
-        df= transform(columns, row).set_index('name')
-        df.to_csv(f'Saver/{game}.csv')
-    else:
-        if pd.read_csv(f'Saver/{game}.csv').columns.tolist() == columns:
-            print(game)
-        else:
-            df= transform(columns, row).set_index('name')
-            df.to_csv(f'Saver/{game}.csv')
-            return df
+
+    df = transform(columns, row)
+    df.to_csv(f'Saver/{game}.csv')
+
 
 
 def multiple_games(games:list, df=df, columns:list=['genres', 'themes', 'game_modes','tags', 'platforms', 'keywords']):
@@ -153,5 +147,8 @@ def preprocess(df:pd.DataFrame, columns=master_cols):
 #print(out)
 
 
-preprocess(df.iloc[125:150])
+#preprocess(df.iloc[125:130])
+#save_file()
 #print(get_input('Out of the Park Baseball 12'))
+
+transform('Out of the Park Baseball 12')
