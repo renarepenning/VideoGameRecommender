@@ -102,19 +102,26 @@ def multiple_games(games:list, df=df, columns:list=['genres', 'themes', 'game_mo
    
     for game in games:
         print(game)
-        save_file(game, columns, df)
-        """
+        #save_file(game, columns, df)
+        
         x = threading.Thread(target=save_file, args=(game, columns, df,))
         threads.append(x)
         x.start()
-        """
-    #for thread in threads:
-     #   thread.join()
-    for game in games:
+        
+    for thread in threads:
+        thread.join()
+    if len(games) == 1:
+        master = pd.read_csv(f'Saver/{games[0]}.csv')['Total']
+    else:
+        master = pd.read_csv(f'Saver/{games[0]}.csv')['Total']
+        
+    for game in games[1:]:
+        print(pd.read_csv(f'Saver/{game}.csv')['Total'].sort_values())
         print(f'Saver/{game}.csv')
-        pd.read_csv(f'Saver/{game}.csv')
-   
+        master = master + pd.read_csv(f'Saver/{game}.csv')['Total']
 
+    print(master.sort_values())
+    return master
 
 
 def preprocess(df:pd.DataFrame, columns=master_cols):
@@ -150,5 +157,32 @@ def preprocess(df:pd.DataFrame, columns=master_cols):
 #preprocess(df.iloc[125:130])
 #save_file()
 #print(get_input('Out of the Park Baseball 12'))
+
+#print(transform(master_cols, get_input('Out of the Park Baseball 12')))
+
+# Pandas DataFrame of IGDB games
+def build_ul(df=df):
+    front = '''<li><a href="#">'''
+    back = '''</a></li>'''
+    with open('C:/Users/Trader00/Downloads/UL File.txt', 'x') as f:
+        f.write('''<ul id="myUL">\n''')
+        print('''<ul id="myUL">''')
+        for game in df.name.tolist():
+            try:
+                line = '\t' + front + game + back + '\n'
+                print(line)
+                f.write(line)
+            except:
+                pass
+            
+        f.write('</ul>')
+        print('</ul>')
+        f.close()
+        
+        
+#build_ul(df)
+
+multiple_games(games=['Spy Snatcher', 'Mirage', 'Boom Brothers', 'Minecraft Starter Collection',
+                      'Siesta Fiesta'])
 
 print(transform(master_cols, get_input('Out of the Park Baseball 12')))
