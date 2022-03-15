@@ -5,7 +5,7 @@ import threading
 import time
 import data
 
-df = data.df.drop_duplicates()
+df = pd.read_csv("PATH TO CSV FILE").drop_duplicates()
 test = df.iloc[5005]
 
 master_cols = ['genres', 'themes', 'game_modes', 'tags', 'platforms', 'keywords']
