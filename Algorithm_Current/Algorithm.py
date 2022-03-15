@@ -5,7 +5,17 @@ import threading
 import time
 import data
 
-df = pd.read_csv("PATH TO CSV FILE").drop_duplicates()
+# Upload path to csv file containing games
+PATH_TO_FILE = ''
+try:
+    df = pd.read_csv(PATH_TO_FILE).drop_duplicates()
+    
+except:
+    df = pd.read_csv(PATH_TO_FILE)
+
+
+
+
 test = df.iloc[5005]
 
 master_cols = ['genres', 'themes', 'game_modes', 'tags', 'platforms', 'keywords']
@@ -76,7 +86,6 @@ def transform( test, columns=master_cols, df=df):
             pass
     print(test.loc['name'], out_cols)
     master = master[out_cols]
-    master.to_csv("C:/Users/Matthew Raw/Downloads/ALGO TEST.csv")
     master['Total'] = master.sum(axis=1)
     end = time.time() - start
     print('Transform Time', end)
