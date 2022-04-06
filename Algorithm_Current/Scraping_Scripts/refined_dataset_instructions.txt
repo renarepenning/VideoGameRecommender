@@ -3,12 +3,15 @@
 ### LIST OF CONSOLES WE CONSIDER ###
 PC (Microsoft Windows), PlayStation VR, SteamVR, Nintendo Switch, Oculus VR, PlayStation 5, Mac, PlayStation 4, Xbox Series X|S, Xbox One, Oculus Go, Oculus Rift, Oculus Quest, PlayStation VR2
 
+1. Make sure you have the IGDB wrapper installed (pip3 install igdb-api-v4)
 
-1. In scraping_games.py, replace the byte_array variable with this variable: 
+2. In scraping_games.py, replace the byte_array variable with this variable: 
 
 byte_array = wrapper.api_request('games', 'fields name; offset ' + str(offset) + '; where release_dates.y > 2012; where platforms = (6, 165, 163, 130, 162, 167, 14, 48, 169); where genres = 32;')
 
-
-2. Rename file the name you want to download it to here:
+3. Rename file the name you want to download it to here:
 with open('filename_here.json', 'a') as outfile:
         json.dump(json_arr, outfile, indent=4)
+        
+If you get an error importing get_token, you can try to add the get_token function to the top of scraping_games.py to fix the problem
+        
