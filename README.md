@@ -1,9 +1,9 @@
 # Video Game Recommender
 
-## Senior Year Computer Science Capstone Project - Tulane University 2021-2022
-#### By Rena Repenning, Kelly Romer, Matthew Rau, Emily O'Connell, and Vaughn Bangash
+Senior Year Computer Science Capstone Project - Tulane University 2021-2022
+By Rena Repenning, Kelly Romer, Matthew Rau, Emily O'Connell, and Vaughn Bangash
 
-#### Beta Web App: https://game-recs.herokuapp.com/
+## Please see https://github.com/renarepenning/gamerecs_webapp
 
 ## Content
 ### Algorithm_Current
